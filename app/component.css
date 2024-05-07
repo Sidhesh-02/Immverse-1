@@ -1,0 +1,61 @@
+div{
+    background-color: transparent !important;
+    color: white !important;
+}
+.card-body{
+    color: white !important;;
+}
+
+.textContainer{
+    width: 400px;
+}
+
+.dragon{    
+    padding: 10px;
+    width: 380px;
+    translate: 20rem -10rem;
+}
+
+.twoD{
+    color: transparent !important;
+    font-size: 4rem !important;
+    font-weight: 700;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white !important;
+}
+.info{
+    font-size: 2rem !important;
+    padding: 10px !important;
+}
+.info2{
+    font-size: 18px !important;
+    padding: 14px !important;
+}
+.playground{
+    margin-left: 6rem;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.contact{
+    background-color: rgb(40, 38, 41) !important;
+    border-radius: 15px !important;
+}
+.contact input{
+    border-radius: 19px !important;
+    background-color: transparent !important;
+    border-color: rgba(72, 71, 71, 0.7);
+}
+
+.contact input[id="msg"]{
+    border-radius: 20px !important;
+    padding: 9px 12px !important;
+    padding-bottom: 60px !important;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(108, 107, 110, 1);
+    opacity: 1; /* Firefox */
+}
