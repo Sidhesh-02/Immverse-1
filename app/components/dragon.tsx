@@ -9,12 +9,11 @@ const Dragon = () => {
                 </div>
 
                     <div className="col-12 d-flex flex-row-reverse">
-                        <div className="col-8">
-                            <img src="/assets/dragon.png" className="img-fluid " alt="Dragon"/>
+                        <div className="col-md-6 ms-4">
+                            <img src="/assets/dragon.png" className="img-fluid" alt="Dragon"/>
                         </div>
                     </div>
  
-                {/* <p className="dragon">I want a dragon in dark </p> */}
                 <img src="/assets/frame.png" className="img-fluid dragon" alt="" />
             </div>
         </div>

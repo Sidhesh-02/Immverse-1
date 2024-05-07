@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Features = () => {
     const info = [
-        {title:"Text Prompt", image:"/assets/textPrompt.png"},
-        {title:"2D image", image:"/assets/cube.png"},
-        {title:"Download & Share", image:"/assets/downloadLogo2.png"}
+        {title:"Text Prompt", image:"/assets/textPrompt.png", width:100, height:100},
+        {title:"2D image", image:"/assets/cube.png",width:100, height:100},
+        {title:"Download & Share", image:"/assets/downloadLogo2.png",width:100, height:100}
     ];
 
     return ( 
@@ -33,7 +33,7 @@ const Features = () => {
                                     <div className="card-body">
                                         <div className="d-flex flex-row mb-3 text-start">
                                             <div className="p-2">
-                                                <img src ={info.image} style={{width:"100px",height:"70px"}} alt="logo" className="img-fluid"/>    
+                                                <Image src ={info.image} width={info.width} height={info.height} alt="logo" className="img-fluid"/>    
                                             </div> 
                                             <div className="p-2">
                                                 <h5 className="card-title">{info.title}</h5>

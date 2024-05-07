@@ -3,7 +3,7 @@ const HomePage = () => {
         <div className="container-fluid overflow-hidden mt-4">
             <div className="row">
                 <div className="col-md-6">
-                    <div className="m-5">
+                    <div className="m-5 mt-auto">
                         <div className="twoD">
                             Text {'>'} 2D
                         </div>
@@ -18,8 +18,8 @@ const HomePage = () => {
                 </div>
                 <div className="col-md-6 position-relative">
                     <div className="position-relative">
-                        <img src="/assets/car.png" alt="" className="img-fluid" />
-                        <img src="/assets/rectangle.png" className="img-fluid position-absolute start-0 bottom-0 z-n1" style={{translate: "0 -80px"}}  alt="" />
+                        <img src="/assets/car.png" alt="" className="img-fluid "/>
+                        <img src="/assets/rectangle.png" className="img-fluid position-absolute start-0 bottom-0 ms-4 z-n1"  alt="" />
                     </div>
                 </div>
             </div>

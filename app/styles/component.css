@@ -5,17 +5,14 @@ div{
 .card-body{
     color: white !important;;
 }
-
 .textContainer{
     width: 400px;
 }
-
 .dragon{    
     padding: 10px;
     width: 380px;
     translate: 20rem -10rem;
 }
-
 .twoD{
     color: transparent !important;
     font-size: 4rem !important;
@@ -34,14 +31,15 @@ div{
 .playground{
     margin-left: 6rem;
 }
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+.container-fluid{
+    padding: 0px !important;
 }
 
 .contact{
     background-color: rgb(40, 38, 41) !important;
     border-radius: 15px !important;
+    margin: 20px 0px !important;
+    padding: 20px;
 }
 .contact input{
     border-radius: 19px !important;
@@ -55,7 +53,48 @@ div{
     padding-bottom: 60px !important;
 }
 
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control::placeholder { 
     color: rgba(108, 107, 110, 1);
-    opacity: 1; /* Firefox */
+    opacity: 1; 
 }
+
+@media (max-width: 992px) {
+    .playground {
+      margin-left: 2rem; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .playground {
+      margin-left: 1rem; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .playground {
+      margin-left: 0; 
+      display:none;
+    }
+  
+    .textContainer {
+      width: auto; 
+    }
+    
+    .dragon{    
+      padding: 10px;
+      width: 240px;
+      translate: 0px -100px;
+  }
+    .contact input[id="msg"] {
+      padding-bottom: 20px; 
+    }
+  
+    .navbar-nav {
+      flex-direction: column; 
+    }
+  
+    .navbar-toggler {
+      order: -1; 
+    }
+  }
+  
