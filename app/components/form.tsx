@@ -5,46 +5,61 @@ import Image from 'next/image';
 function ContactForm() {
   return (
     <div className='mt-5'>
-      <div className="container mb-5 overflow-hidden">
-        <div className="row">
-          <div className="col-md-6 d-flex align-items-center justify-content-center">
-            <div>
-              <h1 style={{ color: '#D71D89', fontWeight: 'bold' }}>Limited seats</h1>
-              <h1 className='font-monospace text-white'>Join Us now</h1>
-              <p style={{ maxWidth: "400px" }} className='text-white'>
-                We are headquartered in Nagpur, India, with presence in San Francisco, California. Reach out to us to dive into the realm of immortalization and shape the course of eternity.
-              </p>
-              <div className='mt-4'>
-                <FontAwesomeIcon icon={faLocationDot} style={{ color: "#d71d78", height: '20px' }} />
-                <span className='text-white'> India || USA</span>
-                <br />
-                <FontAwesomeIcon icon={faEnvelope} style={{ color: "#d71d78", height: '20px' }} />
-                <span className='text-white'> hello@immverse.ai</span>
+      <div className='footer'>
+        <div className="container mb-5">
+          <div className="row">
+            <div className="col-md-6 d-flex align-items-center justify-content-center">
+              <div>
+                <h1 style={{ color: '#D71D89', fontWeight: 'bold' }}>Limited seats</h1>
+                <h1 className='font-monospace text-white'>Join Us now</h1>
+                <p style={{ maxWidth: "400px" }} className='text-white'>
+                  We are headquartered in Nagpur, India, with presence in San Francisco, California. Reach out to us to dive into the realm of immortalization and shape the course of eternity.
+                </p>
+                <div className='mt-4'>
+                  <div className='p-2'>
+                    <FontAwesomeIcon icon={faLocationDot} style={{ color: "#d71d78", height: '20px' }} />
+                    <span className='text-white'> India || USA</span>
+                  </div>
+                  <div className='p-2'>
+                    <FontAwesomeIcon icon={faEnvelope} style={{ color: "#d71d78", height: '20px' }} />
+                    <span className='text-white'> hello@immverse.ai</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className='col-md-6 contact'>
-            <form className="row p-4">
-              <div className="col-md-6">
-                <label className="form-label">Full Name*</label>
-                <input type="text" className="form-control" placeholder='Enter your full name' />
-              </div>
-              <div className="col-md-6">
-                <label className="form-label">Email*</label>
-                <input type="email" className="form-control" placeholder='Enter your email' />
-              </div>
-              <div className="col-md-12">
-                <label className="form-label">Mobile No*</label>
-                <input type="number" className="form-control" placeholder='Enter your mobile no.' />
-              </div>
-              <div className="col-12">
-                <label className="form-label">Your Message*</label>
-                <input type="text" id='msg' className="form-control" placeholder='Enter your message' />
-              </div>
-              <div className="col-12 d-flex justify-content-center">
-                <button type="submit" className="btn btn-primary">Sign in</button>
-              </div>
-            </form>
+            <div className='col-md-6 contact'>
+              <form className="row p-4">
+                <div className="col-md-6">
+                  <label className="form-label">Full Name*</label>
+                  <input type="text" className="form-control" placeholder='Enter your full name' />
+                </div>
+                <div className="col-md-6">
+                  <label className="form-label">Email*</label>
+                  <input type="email" className="form-control" placeholder='Enter your email' />
+                </div>
+                <div className="col-md-12 my-3">
+                  <label className="form-label">Mobile No*</label>
+                  <input type="number" className="form-control" placeholder='Enter your mobile no.' />
+                </div>
+                <div className="col-12">
+                  <label className="form-label">Your Message*</label>
+                  <input type="text" id='msg' className="form-control" placeholder='Enter your message' />
+                </div>
+                <div className="col-12 d-flex justify-content-center">
+                  <button type="submit" className="btn btn-primary m-4">
+                    <div className='d-flex align-items-center'>
+                      <span className='p-1'>
+                        Send 
+                      </span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:'20px',height:'20px'}}>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                      </svg>
+                    </div>
+
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -68,7 +83,7 @@ function ContactForm() {
         </div>
         <h5 className='text-center text-bold text-grey mb-3'>Term of Service | Privacy Policy</h5>
         <hr className="w-75" style={{ borderTop: '1px solid white' }} />
-        <h6 className='text-center text-white'>Disclaimer: Act of fiction, AI content is generated, exercise caution ImmverseAI owns no responsibility</h6>
+        <h6 className='text-center text-white px-2'>Disclaimer: Act of fiction, AI content is generated, exercise caution ImmverseAI owns no responsibility</h6>
         <p className='text-center text-grey'>Copyright 2023 ImmverseAI. All rights reserved</p>
       </div>
     </div>

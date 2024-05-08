@@ -5,7 +5,8 @@ const Dragon = () => {
         <div className="container-fluid">
             <div className="">
                 <div className="text-center fs-1 fw-semibold mb-4">
-                    Before {"&"} After
+                    Before {" & "} 
+                    <span style={{ color: "rgba(215,29,137,255)" }}> After</span>
                 </div>
 
                     <div className="col-12 d-flex flex-row-reverse">

@@ -5,6 +5,9 @@ div{
 .card-body{
     color: white !important;;
 }
+.char {
+  color: white;
+}
 .textContainer{
     width: 400px;
 }
@@ -17,8 +20,9 @@ div{
     color: transparent !important;
     font-size: 4rem !important;
     font-weight: 700;
+    margin-left: 15px;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white !important;
+    -webkit-text-stroke-color: purple !important;
 }
 .info{
     font-size: 2rem !important;
@@ -53,9 +57,16 @@ div{
     padding-bottom: 60px !important;
 }
 
-.form-control::placeholder { 
+.form-control::placeholder{ 
     color: rgba(108, 107, 110, 1);
     opacity: 1; 
+}
+.gradient-btn{
+  background: linear-gradient(to right, rgba(91,0,67,255), rgba(0, 0, 255, 0.392));
+  border: none;
+  color: white;
+  height: 40px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 992px) {
@@ -95,6 +106,9 @@ div{
   
     .navbar-toggler {
       order: -1; 
+    }
+    .footer{
+      margin: 0px 20px;
     }
   }
   

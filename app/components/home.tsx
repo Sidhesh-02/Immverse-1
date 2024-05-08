@@ -5,7 +5,7 @@ const HomePage = () => {
                 <div className="col-md-6">
                     <div className="m-5 mt-auto">
                         <div className="twoD">
-                            Text {'>'} 2D
+                            2D {'>'} <span className="char">3</span><span className="char">D</span>
                         </div>
                         <div className="info">
                             Convert Image <br /> through text online
@@ -13,7 +13,7 @@ const HomePage = () => {
                         <div className="info2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sed earum voluptatem cumque est dignissimos
                         </div>
-                        <button type="button" className="btn btn-outline-light m-3 px-4">Get Started</button>
+                        <button type="button" className="btn gradient-btn text-white m-3 px-4">Get Started</button>
                     </div>
                 </div>
                 <div className="col-md-6 position-relative">
