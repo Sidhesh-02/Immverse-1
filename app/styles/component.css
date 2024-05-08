@@ -2,6 +2,7 @@ div{
     background-color: transparent !important;
     color: white !important;
 }
+
 .card-body{
     color: white !important;;
 }
@@ -50,17 +51,18 @@ div{
     background-color: transparent !important;
     border-color: rgba(72, 71, 71, 0.7);
 }
-
+.contact::placeholder{
+  color: white !important;
+}
 .contact input[id="msg"]{
     border-radius: 20px !important;
     padding: 9px 12px !important;
     padding-bottom: 60px !important;
 }
-
-.form-control::placeholder{ 
-    color: rgba(108, 107, 110, 1);
-    opacity: 1; 
+.form-control::placeholder {
+  color: white;
 }
+.form
 .gradient-btn{
   background: linear-gradient(to right, rgba(91,0,67,255), rgba(0, 0, 255, 0.392));
   border: none;

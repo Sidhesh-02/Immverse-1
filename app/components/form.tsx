@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
 function ContactForm() {
+  
   return (
     <div className='mt-5'>
       <div className='footer'>
@@ -31,28 +32,28 @@ function ContactForm() {
               <form className="row p-4">
                 <div className="col-md-6">
                   <label className="form-label">Full Name*</label>
-                  <input type="text" className="form-control" placeholder='Enter your full name' />
+                  <input type="text" className="form-control" placeholder='Enter your full name' style={{ color: 'white' }} />
                 </div>
                 <div className="col-md-6">
                   <label className="form-label">Email*</label>
-                  <input type="email" className="form-control" placeholder='Enter your email' />
+                  <input type="email" className="form-control" placeholder='Enter your email' style={{ color: 'white' }} />
                 </div>
                 <div className="col-md-12 my-3">
                   <label className="form-label">Mobile No*</label>
-                  <input type="number" className="form-control" placeholder='Enter your mobile no.' />
+                  <input type="text" className="form-control" placeholder='Enter your mobile no.' style={{ color: 'white' }} />
                 </div>
                 <div className="col-12">
                   <label className="form-label">Your Message*</label>
-                  <input type="text" id='msg' className="form-control" placeholder='Enter your message' />
+                  <input type="text" id='msg' className="form-control" placeholder='Enter your message' style={{ color: 'white' }} />
                 </div>
                 <div className="col-12 d-flex justify-content-center">
-                  <button type="submit" className="btn btn-primary m-4">
+                  <button type="submit" style={{background:"linear-gradient(to right, rgba(91,0,67,255), rgba(0, 0, 255, 0.392))"}} className="btn px-4 mt-4">
                     <div className='d-flex align-items-center'>
-                      <span className='p-1'>
+                      <span className='p-1' >
                         Send 
                       </span>
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:'20px',height:'20px'}}>
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" style={{width:'20px',height:'20px'}}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                       </svg>
                     </div>
 
