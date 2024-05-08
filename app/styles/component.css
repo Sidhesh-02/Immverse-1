@@ -62,7 +62,7 @@ div{
 .form-control::placeholder {
   color: white;
 }
-.form
+
 .gradient-btn{
   background: linear-gradient(to right, rgba(91,0,67,255), rgba(0, 0, 255, 0.392));
   border: none;
